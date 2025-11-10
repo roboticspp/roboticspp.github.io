@@ -1,1 +1,371 @@
-
+{
+  "courses": [
+    {
+      "id": "robotics-fundamentals-2024",
+      "title": "Fundamentos de Robótica Moderna",
+      "description": "Aprende los principios básicos de la robótica contemporánea, desde sensores hasta actuadores, pasando por control y programación de robots.",
+      "instructor": {
+        "name": "Dr. Elena Martínez",
+        "avatar": "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Professional%20female%20robotics%20instructor%20avatar%2C%20modern%20tech%20style%2C%20confident%20expression%2C%20high%20quality&image_size=square_hd",
+        "bio": "PhD en Robótica, 15 años de experiencia en automatización industrial"
+      },
+      "category": "Robótica",
+      "level": "Principiante",
+      "duration": "12 horas",
+      "totalLessons": 8,
+      "rating": 4.8,
+      "studentsEnrolled": 1250,
+      "thumbnail": "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Modern%20robotics%20course%20thumbnail%2C%20futuristic%20robot%20design%2C%20circuit%20patterns%2C%20blue%20and%20green%20colors%2C%20high%20tech%20aesthetic&image_size=landscape_16_9",
+      "tags": ["robótica", "automatización", "arduino", "sensores"],
+      "price": 0,
+      "language": "es",
+      "lastUpdated": "2024-01-15",
+      "lessons": [
+        {
+          "id": "lesson-1",
+          "title": "Introducción a la Robótica",
+          "duration": "25 min",
+          "type": "video",
+          "content": "Conceptos fundamentales de robótica, historia y aplicaciones modernas",
+          "videoUrl": "https://example.com/videos/intro-robotics.mp4",
+          "resources": [
+            {
+              "name": "Presentación PDF",
+              "url": "/resources/intro-slides.pdf",
+              "type": "pdf"
+            }
+          ],
+          "quiz": {
+            "questions": 5,
+            "passingScore": 70
+          }
+        },
+        {
+          "id": "lesson-2",
+          "title": "Sensores y Actuadores",
+          "duration": "35 min",
+          "type": "video",
+          "content": "Tipos de sensores, principios de funcionamiento y aplicaciones prácticas",
+          "videoUrl": "https://example.com/videos/sensors-actuators.mp4",
+          "resources": [
+            {
+              "name": "Código de Ejemplo",
+              "url": "/resources/sensor-code.zip",
+              "type": "code"
+            }
+          ]
+        },
+        {
+          "id": "lesson-3",
+          "title": "Control de Movimiento",
+          "duration": "40 min",
+          "type": "video",
+          "content": "Algoritmos de control, cinemática básica y planificación de trayectorias",
+          "videoUrl": "https://example.com/videos/motion-control.mp4"
+        },
+        {
+          "id": "lesson-4",
+          "title": "Programación con Arduino",
+          "duration": "50 min",
+          "type": "interactive",
+          "content": "Práctica guiada de programación de robots con Arduino IDE",
+          "interactiveContent": {
+            "type": "code-editor",
+            "initialCode": "// Código inicial para control de servo\n#include <Servo.h>\nServo myServo;\n\nvoid setup() {\n  myServo.attach(9);\n}\n\nvoid loop() {\n  myServo.write(90);\n  delay(1000);\n}",
+            "expectedOutput": "Servo debe moverse a 90 grados"
+          }
+        },
+        {
+          "id": "lesson-5",
+          "title": "Visión por Computadora",
+          "duration": "45 min",
+          "type": "video",
+          "content": "Introducción a la visión artificial y procesamiento de imágenes en robótica",
+          "videoUrl": "https://example.com/videos/computer-vision.mp4"
+        },
+        {
+          "id": "lesson-6",
+          "title": "Proyecto: Robot Seguidor de Línea",
+          "duration": "60 min",
+          "type": "project",
+          "content": "Construcción paso a paso de un robot seguidor de línea",
+          "projectFiles": "/projects/line-follower.zip",
+          "requirements": [
+            "Arduino UNO",
+            "Sensores IR",
+            "Motores DC",
+            "Chasis robot"
+          ]
+        },
+        {
+          "id": "lesson-7",
+          "title": "Inteligencia Artificial en Robótica",
+          "duration": "55 min",
+          "type": "video",
+          "content": "Aplicaciones de IA moderna en robots autónomos y aprendizaje por refuerzo",
+          "videoUrl": "https://example.com/videos/ai-robotics.mp4"
+        },
+        {
+          "id": "lesson-8",
+          "title": "Examen Final y Certificación",
+          "duration": "30 min",
+          "type": "exam",
+          "content": "Evaluación final del curso con certificación",
+          "exam": {
+            "questions": 25,
+            "timeLimit": 1800,
+            "passingScore": 80,
+            "certificate": true
+          }
+        }
+      ],
+      "requirements": [
+        "Conocimientos básicos de programación",
+        "Computadora con acceso a internet",
+        "Kit de robótica (opcional para prácticas)"
+      ],
+      "learningObjectives": [
+        "Comprender principios fundamentales de robótica",
+        "Programar robots básicos",
+        "Aplicar sensores y actuadores en proyectos reales",
+        "Diseñar soluciones robóticas simples"
+      ]
+    },
+    {
+      "id": "ia-fundamentals-2025",
+      "title": "Inteligencia Artificial: Fundamentos y Aplicaciones",
+      "description": "Domina los conceptos esenciales de IA, desde búsqueda y optimización hasta aprendizaje automático supervisado y no supervisado, con ejemplos prácticos en Python.",
+      "instructor": {
+        "name": "Ing. Ricardo Gómez",
+        "avatar": "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Professional%20male%20AI%20instructor%20avatar%2C%20tech%20background%2C%20smart%20casual%2C%20high%20quality&image_size=square_hd",
+        "bio": "MSc en IA, investigador en sistemas inteligentes y profesor universitario"
+      },
+      "category": "IA",
+      "level": "Intermedio",
+      "duration": "15 horas",
+      "totalLessons": 10,
+      "rating": 4.7,
+      "studentsEnrolled": 980,
+      "thumbnail": "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=AI%20course%20thumbnail%2C%20neural%20network%20glowing%20mesh%2C%20data%20flow%2C%20blue%20cyan%20palette%2C%20futuristic&image_size=landscape_16_9",
+      "tags": ["ia", "machine learning", "python", "algoritmos"],
+      "price": 0,
+      "language": "es",
+      "lastUpdated": "2025-01-10",
+      "lessons": [
+        { "id": "lesson-1", "title": "Historia y Áreas de la IA", "duration": "20 min", "type": "video", "content": "Panorama de la IA: búsqueda, conocimiento, aprendizaje", "videoUrl": "https://example.com/videos/ia-history.mp4" },
+        { "id": "lesson-2", "title": "Representación del Conocimiento", "duration": "30 min", "type": "article", "content": "Lógica, grafos semánticos y ontologías" },
+        { "id": "lesson-3", "title": "Búsqueda y Optimización", "duration": "35 min", "type": "video", "content": "A*, heurísticas y metaheurísticas", "videoUrl": "https://example.com/videos/search-optimization.mp4" },
+        { "id": "lesson-4", "title": "Aprendizaje Supervisado", "duration": "40 min", "type": "video", "content": "Regresión, clasificación y evaluación", "videoUrl": "https://example.com/videos/supervised-learning.mp4" },
+        { "id": "lesson-5", "title": "Aprendizaje No Supervisado", "duration": "35 min", "type": "video", "content": "Clustering y reducción de dimensionalidad", "videoUrl": "https://example.com/videos/unsupervised-learning.mp4" },
+        { "id": "lesson-6", "title": "Python para IA", "duration": "45 min", "type": "interactive", "content": "Notebook práctico con NumPy, Pandas y scikit-learn", "interactiveContent": { "type": "notebook", "initialCode": "import numpy as np\nimport pandas as pd\nfrom sklearn.linear_model import LogisticRegression\n", "expectedOutput": "Clasificación básica con precisión reportada" } },
+        { "id": "lesson-7", "title": "Ética y Sesgos", "duration": "25 min", "type": "article", "content": "Principios éticos y mitigación de sesgos" },
+        { "id": "lesson-8", "title": "Proyecto: Clasificador de Imágenes", "duration": "60 min", "type": "project", "content": "Construye un pipeline de clasificación con scikit-learn", "projectFiles": "/projects/image-classifier.zip" },
+        { "id": "lesson-9", "title": "Quiz de Fundamentos", "duration": "15 min", "type": "exam", "content": "Evaluación de conceptos básicos", "exam": { "questions": 15, "timeLimit": 1200, "passingScore": 70 } },
+        { "id": "lesson-10", "title": "Certificación", "duration": "20 min", "type": "exam", "content": "Examen final", "exam": { "questions": 20, "timeLimit": 1800, "passingScore": 75, "certificate": true } }
+      ],
+      "requirements": ["Python básico", "Algebra lineal elemental"],
+      "learningObjectives": ["Comprender áreas clave de la IA", "Aplicar algoritmos de ML", "Evaluar modelos con métricas estándar"]
+    },
+    {
+      "id": "deep-learning-2025",
+      "title": "Deep Learning: Redes Neuronales Profundas",
+      "description": "Aprende a construir y entrenar redes neuronales profundas con PyTorch y TensorFlow, cubriendo CNNs, RNNs y técnicas modernas de regularización y optimización.",
+      "instructor": {
+        "name": "Dra. Sofía Álvarez",
+        "avatar": "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Female%20deep%20learning%20instructor%20avatar%2C%20lab%20setting%2C%20confident%2C%20high%20quality&image_size=square_hd",
+        "bio": "PhD en Ciencias de Datos, especialista en modelos profundos"
+      },
+      "category": "IA",
+      "level": "Avanzado",
+      "duration": "16 horas",
+      "totalLessons": 9,
+      "rating": 4.8,
+      "studentsEnrolled": 740,
+      "thumbnail": "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Deep%20Learning%20thumbnail%2C%20CNN%20filters%2C%20layered%20neural%20nets%2C%20futuristic%20design&image_size=landscape_16_9",
+      "tags": ["deep learning", "pytorch", "tensorflow", "cnn", "rnn"],
+      "price": 0,
+      "language": "es",
+      "lastUpdated": "2025-01-12",
+      "lessons": [
+        { "id": "lesson-1", "title": "Fundamentos de Redes", "duration": "30 min", "type": "video", "content": "Perceptrón, activaciones y backprop", "videoUrl": "https://example.com/videos/dl-basics.mp4" },
+        { "id": "lesson-2", "title": "Arquitecturas CNN", "duration": "40 min", "type": "video", "content": "Conv, pool y normalización", "videoUrl": "https://example.com/videos/cnn-architectures.mp4" },
+        { "id": "lesson-3", "title": "Secuencias con RNN/LSTM", "duration": "35 min", "type": "video", "content": "Modelado de texto y series", "videoUrl": "https://example.com/videos/rnn-lstm.mp4" },
+        { "id": "lesson-4", "title": "Regularización y Optimización", "duration": "30 min", "type": "article", "content": "Dropout, weight decay, schedulers" },
+        { "id": "lesson-5", "title": "PyTorch Hands-on", "duration": "50 min", "type": "interactive", "content": "Entrena una CNN en PyTorch", "interactiveContent": { "type": "notebook", "initialCode": "import torch\nimport torch.nn as nn\n", "expectedOutput": "Accuracy > 85% en dataset simple" } },
+        { "id": "lesson-6", "title": "TensorFlow/Keras", "duration": "45 min", "type": "interactive", "content": "Implementación paralela en Keras", "interactiveContent": { "type": "notebook", "initialCode": "import tensorflow as tf\nfrom tensorflow import keras\n", "expectedOutput": "Arquitectura equivalente entrenada" } },
+        { "id": "lesson-7", "title": "Proyecto: Clasificador CNN", "duration": "60 min", "type": "project", "content": "Pipeline completo con augmentations", "projectFiles": "/projects/cnn-classifier.zip" },
+        { "id": "lesson-8", "title": "Evaluación", "duration": "20 min", "type": "exam", "content": "Quiz intermedio", "exam": { "questions": 12, "timeLimit": 900, "passingScore": 70 } },
+        { "id": "lesson-9", "title": "Examen Final", "duration": "25 min", "type": "exam", "content": "Certificación DL", "exam": { "questions": 18, "timeLimit": 1500, "passingScore": 75, "certificate": true } }
+      ],
+      "requirements": ["Python intermedio", "Cálculo y Álgebra lineal"],
+      "learningObjectives": ["Diseñar y entrenar CNN/RNN", "Aplicar técnicas de regularización", "Evaluar y ajustar modelos profundos"]
+    },
+    {
+      "id": "neural-networks-2025",
+      "title": "Redes Neuronales: Teoría y Práctica",
+      "description": "Comprende a fondo los fundamentos de las redes neuronales, backpropagation, funciones de activación y arquitecturas clásicas, con prácticas guiadas.",
+      "instructor": {
+        "name": "Prof. Laura Mendoza",
+        "avatar": "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=University%20professor%20avatar%2C%20neural%20networks%20expert%2C%20warm%20smile%2C%20high%20quality&image_size=square_hd",
+        "bio": "Profesora titular en IA aplicada, 10 años de experiencia"
+      },
+      "category": "IA",
+      "level": "Intermedio",
+      "duration": "14 horas",
+      "totalLessons": 8,
+      "rating": 4.7,
+      "studentsEnrolled": 820,
+      "thumbnail": "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Neural%20networks%20thumbnail%2C%20nodes%20and%20connections%2C%20glowing%20matrix%2C%20dark%20background&image_size=landscape_16_9",
+      "tags": ["neural networks", "backpropagation", "activaciones", "regularización"],
+      "price": 0,
+      "language": "es",
+      "lastUpdated": "2025-01-08",
+      "lessons": [
+        { "id": "lesson-1", "title": "Perceptrón y MLP", "duration": "30 min", "type": "video", "content": "Redes feedforward y aprendizaje", "videoUrl": "https://example.com/videos/perceptron-mlp.mp4" },
+        { "id": "lesson-2", "title": "Backpropagation", "duration": "35 min", "type": "video", "content": "Derivadas y propagación del error", "videoUrl": "https://example.com/videos/backprop.mp4" },
+        { "id": "lesson-3", "title": "Funciones de Activación", "duration": "25 min", "type": "article", "content": "ReLU, Sigmoid, Tanh, GELU" },
+        { "id": "lesson-4", "title": "Inicialización y Normalización", "duration": "25 min", "type": "article", "content": "Xavier/He y BatchNorm/LayerNorm" },
+        { "id": "lesson-5", "title": "Optimización", "duration": "35 min", "type": "video", "content": "SGD, Adam y variantes", "videoUrl": "https://example.com/videos/optimizers.mp4" },
+        { "id": "lesson-6", "title": "Proyecto: Clasificador MLP", "duration": "50 min", "type": "project", "content": "Entrena un MLP en dataset tabular", "projectFiles": "/projects/mlp-classifier.zip" },
+        { "id": "lesson-7", "title": "Regularización", "duration": "25 min", "type": "article", "content": "Dropout y penalizaciones L1/L2" },
+        { "id": "lesson-8", "title": "Examen", "duration": "20 min", "type": "exam", "content": "Quiz teórico", "exam": { "questions": 12, "timeLimit": 900, "passingScore": 70 } }
+      ],
+      "requirements": ["Matemáticas intermedias", "Python básico"],
+      "learningObjectives": ["Entender el aprendizaje en redes", "Configurar arquitecturas MLP", "Optimizar y regularizar modelos"]
+    },
+    {
+      "id": "computer-vision-2025",
+      "title": "Visión por Computadora: Del Pixel al Modelo",
+      "description": "Aprende técnicas modernas de visión por computadora, desde procesado clásico con OpenCV hasta modelos de detección y segmentación con redes profundas.",
+      "instructor": {
+        "name": "Mtro. Diego Salas",
+        "avatar": "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Computer%20vision%20instructor%20avatar%2C%20camera%20and%20coding%20theme%2C%20high%20quality&image_size=square_hd",
+        "bio": "Especialista en visión artificial y analítica de video"
+      },
+      "category": "IA",
+      "level": "Intermedio",
+      "duration": "12 horas",
+      "totalLessons": 8,
+      "rating": 4.7,
+      "studentsEnrolled": 690,
+      "thumbnail": "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Computer%20vision%20thumbnail%2C%20camera%20lens%2C%20image%20processing%2C%20neural%20features%2C%20tech%20style&image_size=landscape_16_9",
+      "tags": ["computer vision", "opencv", "detección", "segmentación"],
+      "price": 0,
+      "language": "es",
+      "lastUpdated": "2025-01-06",
+      "lessons": [
+        { "id": "lesson-1", "title": "Procesamiento Clásico", "duration": "30 min", "type": "video", "content": "Filtros, bordes y morfología", "videoUrl": "https://example.com/videos/opencv-basics.mp4" },
+        { "id": "lesson-2", "title": "Detección de Objetos", "duration": "35 min", "type": "video", "content": "YOLO/SSD conceptos", "videoUrl": "https://example.com/videos/object-detection.mp4" },
+        { "id": "lesson-3", "title": "Segmentación", "duration": "30 min", "type": "article", "content": "U-Net y máscaras" },
+        { "id": "lesson-4", "title": "Augmentations", "duration": "25 min", "type": "article", "content": "Técnicas de aumento de datos" },
+        { "id": "lesson-5", "title": "Proyecto: Detector", "duration": "60 min", "type": "project", "content": "Implementa pipeline con anotaciones", "projectFiles": "/projects/object-detector.zip" },
+        { "id": "lesson-6", "title": "Evaluación", "duration": "20 min", "type": "exam", "content": "mAP y métricas", "exam": { "questions": 10, "timeLimit": 900, "passingScore": 70 } },
+        { "id": "lesson-7", "title": "Deployment", "duration": "35 min", "type": "video", "content": "Exportación y optimización", "videoUrl": "https://example.com/videos/deployment-cv.mp4" },
+        { "id": "lesson-8", "title": "Certificación", "duration": "20 min", "type": "exam", "content": "Examen final", "exam": { "questions": 16, "timeLimit": 1500, "passingScore": 75, "certificate": true } }
+      ],
+      "requirements": ["Python", "Conocimientos básicos de DL"],
+      "learningObjectives": ["Aplicar OpenCV", "Entrenar modelos de detección", "Evaluar y desplegar sistemas de visión"]
+    },
+    {
+      "id": "calculo-aplicado-2025",
+      "title": "Cálculo Integral y Diferencial Aplicado",
+      "description": "Domina el cálculo diferencial e integral con enfoque práctico en problemas de optimización, análisis de señales y modelos físicos.",
+      "instructor": {
+        "name": "Dr. Manuel Ortega",
+        "avatar": "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Mathematics%20professor%20avatar%2C%20chalkboard%2C%20formulas%2C%20high%20quality&image_size=square_hd",
+        "bio": "Doctor en Matemáticas Aplicadas, consultor en modelado científico"
+      },
+      "category": "Matemáticas",
+      "level": "Intermedio",
+      "duration": "10 horas",
+      "totalLessons": 7,
+      "rating": 4.6,
+      "studentsEnrolled": 560,
+      "thumbnail": "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Calculus%20course%20thumbnail%2C%20integrals%20and%20derivatives%2C%20graphs%2C%20clean%20tech%20design&image_size=landscape_16_9",
+      "tags": ["cálculo", "derivadas", "integrales", "optimización"],
+      "price": 0,
+      "language": "es",
+      "lastUpdated": "2025-01-07",
+      "lessons": [
+        { "id": "lesson-1", "title": "Límites y Continuidad", "duration": "25 min", "type": "video", "content": "Conceptos base", "videoUrl": "https://example.com/videos/limits.mp4" },
+        { "id": "lesson-2", "title": "Derivadas", "duration": "35 min", "type": "video", "content": "Reglas y aplicaciones", "videoUrl": "https://example.com/videos/derivatives.mp4" },
+        { "id": "lesson-3", "title": "Integrales", "duration": "35 min", "type": "video", "content": "Métodos y propiedades", "videoUrl": "https://example.com/videos/integrals.mp4" },
+        { "id": "lesson-4", "title": "Optimización", "duration": "30 min", "type": "article", "content": "Máximos y mínimos" },
+        { "id": "lesson-5", "title": "Series y Convergencia", "duration": "25 min", "type": "article", "content": "Series de potencias" },
+        { "id": "lesson-6", "title": "Proyecto: Modelado Físico", "duration": "50 min", "type": "project", "content": "Modelo de movimiento con fricción", "projectFiles": "/projects/physics-model.zip" },
+        { "id": "lesson-7", "title": "Examen", "duration": "20 min", "type": "exam", "content": "Quiz cálculo", "exam": { "questions": 14, "timeLimit": 1200, "passingScore": 70 } }
+      ],
+      "requirements": ["Álgebra básica"],
+      "learningObjectives": ["Aplicar derivadas e integrales", "Resolver problemas de optimización", "Interpretar modelos matemáticos"]
+    },
+    {
+      "id": "poo-avanzada-2025",
+      "title": "POO Avanzada (C++, Python, TypeScript)",
+      "description": "Profundiza en principios SOLID, patrones de diseño y arquitecturas orientadas a objetos con ejemplos en C++, Python y TypeScript.",
+      "instructor": {
+        "name": "Arq. de Software Marta Ruiz",
+        "avatar": "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Software%20architect%20avatar%2C%20clean%20design%2C%20professional%2C%20high%20quality&image_size=square_hd",
+        "bio": "Arquitecta de software, 12 años construyendo sistemas distribuídos"
+      },
+      "category": "Programación",
+      "level": "Avanzado",
+      "duration": "18 horas",
+      "totalLessons": 9,
+      "rating": 4.7,
+      "studentsEnrolled": 610,
+      "thumbnail": "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=OOP%20advanced%20course%20thumbnail%2C%20class%20diagrams%2C%20clean%20code%2C%20blue%20theme&image_size=landscape_16_9",
+      "tags": ["poo", "solid", "patrones", "c++", "python", "typescript"],
+      "price": 0,
+      "language": "es",
+      "lastUpdated": "2025-01-09",
+      "lessons": [
+        { "id": "lesson-1", "title": "Repaso de POO", "duration": "25 min", "type": "video", "content": "Clases, objetos y herencia", "videoUrl": "https://example.com/videos/oop-review.mp4" },
+        { "id": "lesson-2", "title": "SOLID", "duration": "35 min", "type": "video", "content": "Principios y casos", "videoUrl": "https://example.com/videos/solid.mp4" },
+        { "id": "lesson-3", "title": "Patrones de Diseño I", "duration": "40 min", "type": "article", "content": "Factory, Strategy, Observer" },
+        { "id": "lesson-4", "title": "Patrones de Diseño II", "duration": "35 min", "type": "article", "content": "Decorator, Adapter, Facade" },
+        { "id": "lesson-5", "title": "Ejemplos en C++", "duration": "45 min", "type": "interactive", "content": "Uso de interfaces y RAII", "interactiveContent": { "type": "code-editor", "initialCode": "#include <iostream>\n", "expectedOutput": "Demostración de patrones" } },
+        { "id": "lesson-6", "title": "Ejemplos en Python", "duration": "45 min", "type": "interactive", "content": "Protocolos y dataclasses", "interactiveContent": { "type": "code-editor", "initialCode": "class Servicio:\n    pass\n", "expectedOutput": "Patrones aplicados" } },
+        { "id": "lesson-7", "title": "Ejemplos en TypeScript", "duration": "45 min", "type": "interactive", "content": "Interfaces y generics", "interactiveContent": { "type": "code-editor", "initialCode": "interface Repo<T> { }\n", "expectedOutput": "Patrones aplicados" } },
+        { "id": "lesson-8", "title": "Arquitectura", "duration": "30 min", "type": "video", "content": "DDD y hexagonal", "videoUrl": "https://example.com/videos/architecture.mp4" },
+        { "id": "lesson-9", "title": "Certificación", "duration": "25 min", "type": "exam", "content": "Examen final", "exam": { "questions": 18, "timeLimit": 1500, "passingScore": 75, "certificate": true } }
+      ],
+      "requirements": ["Experiencia básica en POO"],
+      "learningObjectives": ["Aplicar SOLID", "Implementar patrones clásicos", "Diseñar arquitecturas OOP robustas"]
+    },
+    {
+      "id": "llms-vlms-unsupervised-2025",
+      "title": "LLMs, VLMs y Modelos No Supervisados",
+      "description": "Explora modelos de lenguaje grandes, visión-lenguaje y algoritmos no supervisados, desde prompt engineering hasta evaluación y despliegue responsable.",
+      "instructor": {
+        "name": "Dra. Camila Torres",
+        "avatar": "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=AI%20researcher%20avatar%2C%20LLM%20expert%2C%20professional%2C%20high%20quality&image_size=square_hd",
+        "bio": "Investigadora en NLP y visión, autora de publicaciones en LLMs"
+      },
+      "category": "IA",
+      "level": "Avanzado",
+      "duration": "16 horas",
+      "totalLessons": 10,
+      "rating": 4.8,
+      "studentsEnrolled": 530,
+      "thumbnail": "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=LLM%20and%20VLM%20course%20thumbnail%2C%20text%20and%20image%20fusion%2C%20neural%20patterns%2C%20futuristic&image_size=landscape_16_9",
+      "tags": ["llm", "vlm", "nlp", "clustering", "autoencoders"],
+      "price": 0,
+      "language": "es",
+      "lastUpdated": "2025-01-11",
+      "lessons": [
+        { "id": "lesson-1", "title": "Fundamentos LLM", "duration": "30 min", "type": "video", "content": "Transformers y atención", "videoUrl": "https://example.com/videos/llm-fundamentals.mp4" },
+        { "id": "lesson-2", "title": "Prompt Engineering", "duration": "35 min", "type": "article", "content": "Técnicas y evaluación" },
+        { "id": "lesson-3", "title": "Fine-tuning y LoRA", "duration": "40 min", "type": "video", "content": "Adaptación eficiente", "videoUrl": "https://example.com/videos/lora-finetune.mp4" },
+        { "id": "lesson-4", "title": "VLMs", "duration": "35 min", "type": "video", "content": "Multimodalidad texto-imagen", "videoUrl": "https://example.com/videos/vlm-basics.mp4" },
+        { "id": "lesson-5", "title": "Modelos No Supervisados", "duration": "35 min", "type": "video", "content": "Clustering, PCA y autoencoders", "videoUrl": "https://example.com/videos/unsupervised-models.mp4" },
+        { "id": "lesson-6", "title": "Proyecto: Chatbot Especializado", "duration": "60 min", "type": "project", "content": "Pipeline con recuperación y evaluación", "projectFiles": "/projects/llm-chatbot.zip" },
+        { "id": "lesson-7", "title": "Seguridad y Ética", "duration": "25 min", "type": "article", "content": "Riesgos y mitigaciones" },
+        { "id": "lesson-8", "title": "Evaluación de Modelos", "duration": "25 min", "type": "article", "content": "Métricas y benchmarks" },
+        { "id": "lesson-9", "title": "Deployment", "duration": "30 min", "type": "video", "content": "Escalado y monitoreo", "videoUrl": "https://example.com/videos/deployment-llm.mp4" },
+        { "id": "lesson-10", "title": "Certificación", "duration": "25 min", "type": "exam", "content": "Examen final", "exam": { "questions": 16, "timeLimit": 1500, "passingScore": 75, "certificate": true } }
+      ],
+      "requirements": ["Python", "Fundamentos de DL"],
+      "learningObjectives": ["Entender y usar LLMs/VLMs", "Aplicar técnicas de ajuste fino", "Evaluar y desplegar sistemas de IA"]
+    }
+  ]
+}
